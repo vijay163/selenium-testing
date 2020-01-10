@@ -1,0 +1,14 @@
+
+<suite name="Suite">
+  <test name="Test">
+  <groups>
+  <run>
+  <include name="b"/>
+  </run>
+  </groups>
+    <classes>
+     <class name="testNgDepends.group"/>
+   
+    </classes>
+  </test>
+</suite> 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <parameter name="pass" value="manager"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="user" value="admin"/>
+  <parameter name="url" value="http://localhost/login.do"/>
+  <test name="TestChrome(failed)(failed)">
+    <parameter name="pass" value="manager"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="user" value="admin"/>
+    <parameter name="url" value="http://localhost/login.do"/>
+    <classes>
+      <class name="testNgparameter.repeatedloop">
+        <methods>
+          <include name="repeat" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNgparameter.repeatedloop -->
+    </classes>
+  </test> <!-- TestChrome(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

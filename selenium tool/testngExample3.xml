@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteFireFox">
+	<parameter name="browser" value="firefox"/>
+      <parameter name="url" value="http://localhost/login.do"/>
+  <parameter name="un" value="adm"/>
+    <parameter name="pw" value="mager"/>
+  <test name="TestFireFox">
+  <parameter name="browser" value="firefox"/>
+      <parameter name="url" value="http://localhost/login.do"/>
+  <parameter name="un" value="admin"/>
+    <parameter name="pw" value="manager"/>
+  
+    <classes>
+      <class name="testNgParameters.parameter3"/>
+    </classes>
+  </test>
+  <test name="Test">
+  <classes>
+  <class name="testNgParameters.parameter3"/>
+  </classes>
+  </test>
+</suite>

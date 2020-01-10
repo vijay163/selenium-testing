@@ -1,0 +1,12 @@
+
+<suite name="Suite">
+  <test name="TestChrome">
+    <parameter name="browser" value="chrome"/>
+      <parameter name="url" value="http://localhost/login.do"/>
+  <parameter name="un" value="admin"/>
+    <parameter name="pw" value="manager"/>
+    <classes>
+      <class name="testNgParameters.parameter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

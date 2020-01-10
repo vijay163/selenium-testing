@@ -1,0 +1,12 @@
+
+<suite name="Suite">
+  <test name="TestChrome">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://localhost/login.do"/>
+    <parameter name="user" value="admin"/>
+     
+    <classes>
+      <class name="testNgparameter.repeatedloop"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
